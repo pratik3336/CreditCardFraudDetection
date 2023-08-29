@@ -1,1 +1,4 @@
 # CreditCardFraudDetection
+The dataset contains transactions made by credit cards in September 2013 by European cardholders. This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
+
+Credit card fraud detection necessitates the use of an ML-based algorithm to accomplish feature extraction and model evaluation. In this project, three machine learning techniques: Random Forest, Linear Regression, and K-Means Clustering are compared and analysed by utilizing the dataset from Kaggle that contains transactions made by credit cards September 2013 by European cardholders to create a fraud transaction detection system.![image](https://github.com/pratik3336/CreditCardFraudDetection/assets/76115015/4e1bc899-dae6-4483-87bb-5faefa3a21d4)
