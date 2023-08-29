@@ -6,7 +6,8 @@ Credit card Fraud Detection necessitates the use of an ML-based algorithm to acc
 Following is the methodology employed by this project:
  
 Figure 1: Methodology
-<img width="472" alt="image" src="https://github.com/pratik3336/CreditCardFraudDetection/assets/76115015/ac5e0712-ecbb-4a88-a55b-3f77a0543c49">
+
+<img width="872" alt="image" src="https://github.com/pratik3336/CreditCardFraudDetection/assets/76115015/ac5e0712-ecbb-4a88-a55b-3f77a0543c49">
 
 
 Credit card transactions by European cardholders in September 2013 are contained in this dataset. A total of 492 frauds were detected out of 284,807 transactions that occurred over a two-day period. There is a high degree of unbalance in the dataset. There are 0.172% of all transactions that are classified as positive (frauds). 
