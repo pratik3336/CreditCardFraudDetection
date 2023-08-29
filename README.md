@@ -10,13 +10,15 @@ Figure 1: Methodology
 <img width="872" alt="image" src="https://github.com/pratik3336/CreditCardFraudDetection/assets/76115015/ac5e0712-ecbb-4a88-a55b-3f77a0543c49">
 
 
-Credit card transactions by European cardholders in September 2013 are contained in this dataset. A total of 492 frauds were detected out of 284,807 transactions that occurred over a two-day period. There is a high degree of unbalance in the dataset. There are 0.172% of all transactions that are classified as positive (frauds). 
-Several numerical variables are contained in it, which are the results of a PCA transformation. 
+• Credit card transactions by European cardholders in September 2013 are contained in this dataset. A total of 492 frauds were detected out of 284,807 transactions that occurred over a two-day period. There is a high degree of unbalance in the dataset. There are 0.172% of all transactions that are classified as positive (frauds). 
+
+•Several numerical variables are contained in it, which are the results of a PCA transformation. 
 Data features, background information, and original features have unfortunately been withheld due to confidentiality issues. With PCA, the principal components are V1, V2, ... V28. The table below outlines the features that were not calculated through the PCA algorithm.
 
 
-In order to address the problem of data imbalance in the credit card fraud detection dataset, this research used three different models: Random Forest Classification, Linear Regression, and XGBoost. The real values were under sampled to 3000 while the fraudulent values were oversampled to 3000 in order to balance the imbalance. Then, a 70:30 split between the training and test sets was applied to the dataset.
-The models were trained on the training set, and the accuracy of their predictions on the testing set was used to gauge their performance. When compared to the Linear Regression model, which performed well in terms of accuracy, precision, and how it appeared on the Confusion Matrix and ROC Curves, the Random Forest Classifier and XGBoost models showed overfitting.
+• In order to address the problem of data imbalance in the credit card fraud detection dataset, this research used three different models: Random Forest Classification, Linear Regression, and XGBoost. The real values were under sampled to 3000 while the fraudulent values were oversampled to 3000 in order to balance the imbalance. Then, a 70:30 split between the training and test sets was applied to the dataset.
+
+• The models were trained on the training set, and the accuracy of their predictions on the testing set was used to gauge their performance. When compared to the Linear Regression model, which performed well in terms of accuracy, precision, and how it appeared on the Confusion Matrix and ROC Curves, the Random Forest Classifier and XGBoost models showed overfitting.
 Based on these results, it can be said that the Linear Regression model performed better than the other two models and is the best choice for this project's evaluation of credit card fraud transactions.
 
 
